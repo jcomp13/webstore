@@ -11,13 +11,13 @@ define('CURRENCY', 'usd');
 define('CHECKOUTMODE','TEST');    // change TEST to LIVE when done testing
 
 if (CHECKOUTMODE == 'TEST'){
-	define ('STRIPE_PRIVATE','sk_test_RFdU8WZU7FX0ypMyeqNGv4EH');
-	define ('STRIPE_PUBLIC', 'pk_test_KznbA9avfEU4IevDUCmp3c1M');	
+	define ('STRIPE_PRIVATE','sk_test_xxxxxxxxxxxxxxxxxxxxxxxx');
+	define ('STRIPE_PUBLIC', 'pk_test_xxxxxxxxxxxxxxxxxxxxxxxx');	
 }
 
 if (CHECKOUTMODE == 'LIVE'){
-	define ('STRIPE_PRIVATE','sk_live_lxBfBTsx8chg1C86x6giua4U');
-	define ('STRIPE_PUBLIC', 'pk_live_vP7M3y0BNZ569ligQyZ5zHFf');	
+	define ('STRIPE_PRIVATE','sk_live_xxxxxxxxxxxxxxxxxxxxxxxx');
+	define ('STRIPE_PUBLIC', 'pk_live_xxxxxxxxxxxxxxxxxxxxxxxx');	
 }
 
 
